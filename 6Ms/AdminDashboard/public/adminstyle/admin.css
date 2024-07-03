@@ -1,0 +1,34 @@
+#content-wrapper {
+    display: none;
+}
+.out{
+    background-color: transparent;
+    border:none;
+    margin-top:auto;
+    align-items: center;
+    position: absolute;
+    right:30px;
+    top:16px
+}
+
+.del {
+    display: inline;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c757d;
+    font-weight: bold;
+    padding: 10px 0; /* Optional: Add padding */
+    width: 100%;
+    overflow: hidden; /* Prevents content from spilling out */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+footer strong {
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.custom-input-width {
+    width: 200px !important; /* Adjust the width as needed */
+}
